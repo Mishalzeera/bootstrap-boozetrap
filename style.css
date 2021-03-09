@@ -3,8 +3,38 @@
             background-color: ivory;
         }
 
+        .navbar {
+            background-color: black;
+        }
+
+        .nav-item {
+            padding: 25px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        h2, h3, h4 {
+            background-color: rgb(90, 2, 20);
+            color: ivory;
+            border-radius: 5px;
+            max-width: 50%;
+            margin: auto;
+        }
+
+        p {
+            display: block;
+            font-size: x-large;
+            max-width: 50%;
+            text-align: center;
+            margin: auto;
+        }
+
+
         a {
-            background-color: rgb(85, 70, 70);
+            background-color: rgb(85, 70, 70, .8);
             text-shadow: crimson;
             font-weight: bolder;
             color: darkred;
@@ -18,5 +48,34 @@
         }
 
         img {
-            align: center;
+            display: inline;
+            margin: auto;
+            margin-left: 25vw;
+        }
+
+        form > * {
+           display: block;
+           margin: auto;
+           text-align: center;
+           margin-top: 15px;
+
+        }
+
+        form > label {
+            border-bottom: 1px solid black;
+            max-width: 25vw;
+        }
+
+        section > ul {
+            display: block;
+            text-align: center;
+            margin: auto;
+            list-style-type: none;
+            margin-bottom: 35px;
+            margin-top: 20px;
+        }
+     
+        #greaves {
+            margin-left: 50px;
+
         }
