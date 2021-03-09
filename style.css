@@ -9,6 +9,7 @@
 
         .nav-item {
             padding: 25px;
+            font-size: x-large;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -77,5 +78,14 @@
      
         #greaves {
             margin-left: 50px;
+        }
 
+        .bottom-button {
+            display: block;
+            padding: 10px 20px;
+            margin: auto;
+            border: 1px solid darkred;
+            font-size: xx-large;
+            font-weight: bold;
+            
         }
