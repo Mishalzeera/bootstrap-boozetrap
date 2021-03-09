@@ -1,0 +1,22 @@
+        body {
+            font-family: "Alegreya", serif;
+            background-color: ivory;
+        }
+
+        a {
+            background-color: rgb(85, 70, 70);
+            text-shadow: crimson;
+            font-weight: bolder;
+            color: darkred;
+            padding: auto, 25px;
+            margin-right: 30px;
+            margin-left: 10px;
+        }
+
+        a:hover {
+            color: rgb(212, 200, 200);
+        }
+
+        img {
+            align: center;
+        }
